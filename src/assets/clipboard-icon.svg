@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 273 380" role="img" aria-labelledby="title desc">
+  <title id="title">Medical clipboard icon</title>
+  <desc id="desc">A blue clipboard holding a white document with dark horizontal writing lines.</desc>
+
+  <defs>
+    <filter id="soft-shadow" x="-12%" y="-12%" width="124%" height="124%">
+      <feDropShadow dx="0" dy="1" stdDeviation="1" flood-color="#000000" flood-opacity=".28"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#soft-shadow)">
+    <path fill="#3369f4" d="M27 69h90c0-20 8-32 20-32s20 12 20 32h90c2 0 4 2 4 4v283c0 2-2 4-4 4H27c-2 0-4-2-4-4V73c0-2 2-4 4-4z"/>
+    <path fill="#0b54dc" d="M117 69c0-20 8-32 20-32s20 12 20 32h26v45H91V69zm12 0h16c0-11-3-17-8-17s-8 6-8 17z"/>
+    <rect width="181" height="233" x="47" y="98" fill="#ffffff" rx="2"/>
+    <path fill="#3369f4" d="M91 98h92v17H91z"/>
+  </g>
+
+  <g fill="#333333">
+    <rect width="128" height="5" x="68" y="148" rx=".5"/>
+    <rect width="128" height="5" x="68" y="169" rx=".5"/>
+    <rect width="87" height="5" x="68" y="192" rx=".5"/>
+    <rect width="118" height="5" x="68" y="215" rx=".5"/>
+    <rect width="141" height="5" x="68" y="236" rx=".5"/>
+  </g>
+</svg>

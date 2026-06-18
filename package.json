@@ -1,18 +1,32 @@
 {
   "name": "meriting-vite-project",
+  "homepage": "https://creativedam.github.io/meriting-vite-project/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "build": "vite build && cp dist/index.html dist/404.html",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
-    "vue": "^3.5.13"
+    "@tailwindcss/postcss": "^4.1.16",
+    "@tailwindcss/vite": "^4.1.14",
+    "animate.css": "^4.1.1",
+    "gh-pages": "^6.3.0",
+    "jquery": "^3.7.1",
+    "slick-carousel": "^1.8.1",
+    "vue": "^3.5.13",
+    "vue-router": "^4.6.4",
+    "vue-slick-carousel": "^1.0.6"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.2.3",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.16",
     "vite": "^6.3.5"
   }
 }

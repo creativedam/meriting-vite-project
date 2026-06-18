@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 260" role="img" aria-labelledby="title desc">
+  <title id="title">Cellphone icon</title>
+  <desc id="desc">A blue cellphone icon with a white screen and call symbol.</desc>
+  <defs>
+    <filter id="phone-shadow" x="-14%" y="-10%" width="128%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="1.4" flood-color="#000000" flood-opacity=".28"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#phone-shadow)">
+    <rect x="42" y="12" width="136" height="236" rx="20" fill="#3369f4"/>
+    <rect x="58" y="34" width="104" height="180" rx="9" fill="#ffffff"/>
+    <rect x="92" y="22" width="36" height="5" rx="2.5" fill="#0b54dc"/>
+    <circle cx="110" cy="231" r="8" fill="#0b54dc"/>
+  </g>
+
+  <g transform="translate(20)">
+    <circle cx="90" cy="122" r="42" fill="#eaf7ff"/>
+    <path fill="#3369f4" d="M74 94c5-3 12-1 15 5l4 8c2 4 1 8-2 11l-4 4c5 9 12 16 21 21l4-4c3-3 7-4 11-2l8 4c6 3 8 10 5 15l-4 7c-2 4-7 7-12 6-30-5-54-29-59-59-1-5 2-10 6-12z"/>
+    <path fill="none" stroke="#0b54dc" stroke-linecap="round" stroke-width="5" d="M116 92c11 5 20 14 25 25"/>
+    <path fill="none" stroke="#0b54dc" stroke-linecap="round" stroke-width="5" d="M112 108c5 3 9 7 12 12"/>
+  </g>
+</svg>
